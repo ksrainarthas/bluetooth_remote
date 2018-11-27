@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">蓝牙远程控制-接收端</string>
+    <string name="start_accept">开始接收</string>
+    <string name="init_fail">初始化失败</string>
+</resources>

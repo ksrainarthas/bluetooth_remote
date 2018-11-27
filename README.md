@@ -1,2 +1,2 @@
-# bluetooth_remote
-蓝牙遥控Demo
+# 蓝牙遥控器
+基于Android系统的蓝牙遥控器

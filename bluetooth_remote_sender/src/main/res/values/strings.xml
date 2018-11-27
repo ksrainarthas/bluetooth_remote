@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">蓝牙远程控制-发送端</string>
+    <string name="paired_devices">配对设备</string>
+    <string name="scan_paired_devices">查找已配对设备</string>
+    <string name="forward">前进</string>
+    <string name="backward">后退</string>
+    <string name="turn_left">左转</string>
+    <string name="turn_right">右转</string>
+    <string name="conn_succeed">连接成功</string>
+    <string name="conn_fail">连接失败</string>
+    <string name="no_paired_device">没有配对的蓝牙设备</string>
+    <string name="curr_conn_null">没有当前连接的蓝牙设备</string>
+    <string name="curr_conn_device">当前连接的蓝牙设备</string>
+</resources>

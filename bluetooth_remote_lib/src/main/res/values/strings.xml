@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">bluetoothremotelib</string>
+    <string name="conn_device_first">请先连接接收端设备</string>
+</resources>

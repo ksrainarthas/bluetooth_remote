@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiyoutech.bluetoothremote.sender.SenderActivity">
+
+    <TextView
+        android:id="@+id/tv_curr_conn_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/curr_conn_null"
+        android:textColor="@android:color/holo_green_light" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_paired_devices" />
+
+    <TextView
+        android:id="@+id/tv_paireddevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paired_devices"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <ListView
+        android:id="@+id/lv_paireddevices"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_forward"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="@string/forward" />
+
+    <LinearLayout
+        android:id="@+id/ll_other3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/btn_turn_left"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/turn_left" />
+
+        <Button
+            android:id="@+id/btn_backward"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/backward" />
+
+        <Button
+            android:id="@+id/btn_turn_right"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/turn_right" />
+    </LinearLayout>
+</LinearLayout>

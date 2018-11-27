@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bluetooth_remote.iml" filepath="$PROJECT_DIR$/bluetooth_remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetooth_remote_lib/bluetooth_remote_lib.iml" filepath="$PROJECT_DIR$/bluetooth_remote_lib/bluetooth_remote_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetooth_remote_receiver/bluetooth_remote_receiver.iml" filepath="$PROJECT_DIR$/bluetooth_remote_receiver/bluetooth_remote_receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetooth_remote_sender/bluetooth_remote_sender.iml" filepath="$PROJECT_DIR$/bluetooth_remote_sender/bluetooth_remote_sender.iml" />
+    </modules>
+  </component>
+</project>
